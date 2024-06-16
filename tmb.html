@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Taxa Metabólica Basal (TMB)</title>
+    <link rel="stylesheet" href="tmb.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora de Taxa Metabólica Basal (TMB)</h1>
+        <form id="tmbForm">
+            <label for="sexo">Sexo:</label>
+            <select id="sexo" required>
+                <option value="masculino">Masculino</option>
+                <option value="feminino">Feminino</option>
+            </select>
+            
+            <label for="idade">Idade (anos):</label>
+            <input type="number" id="idade" placeholder="Ex: 24" required>
+            
+            <label for="peso">Peso (kg):</label>
+            <input type="number" id="peso" placeholder="Ex: 70" required>
+            
+            <label for="altura">Altura (cm):</label>
+            <input type="number" id="altura" placeholder="Ex: 180" required>
+            
+            <button type="button" onclick="calcularTMB()">Calcular TMB</button>
+        </form>
+        <div id="resultado"></div>
+    </div>
+    <script src="tmb.js"></script>
+</body>
+</html>

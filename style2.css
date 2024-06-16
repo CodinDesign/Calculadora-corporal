@@ -1,0 +1,161 @@
+body {
+    background-image: linear-gradient(to right, #656565, #2E2E2E);
+    padding: 0px;
+    text-align: center;
+}
+
+h1 {
+    color: #FF6846;
+    font-size: 38px;
+    font-family: monospace;
+    text-shadow: 
+        0 0 5px #FF6846,   /* Primeira camada de sombra */
+        0 0 10px #FF6846,  /* Segunda camada de sombra */
+        0 0 20px #FF6846,  /* Terceira camada de sombra */
+        0 0 30px #FF6846,  /* Quarta camada de sombra */
+        0 0 40px #FF6846,  /* Quinta camada de sombra */
+        0 0 50px #FF6846,  /* Sexta camada de sombra */
+        0 0 60px #FF6846;  /* Sétima camada de sombra */
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-template-rows: repeat(3,200px);
+  gap: 10px;
+  
+  
+}
+
+.imc {
+  background-color: #323232;
+  padding: 20%;
+  border-radius: 10px;
+  border: 1px solid #FF6846;
+  text-decoration: none;
+}
+
+.imc h2 {
+  color: #FF6846;
+  font-size: 30px;
+}
+
+.imc p {
+  color: white;
+}
+
+.tmb {
+  background-color: #323232;
+  padding: 20%;
+  border-radius: 10px;
+  border: 1px solid #FF6846;
+  text-decoration: none;
+ 
+  }
+  
+.tmb h2 {
+  color: #FF6846;
+  font-size: 30px;
+  
+}
+
+.tmb p {
+  color: white;
+}
+  
+.imm {
+  background-color: #323232;
+  padding: 20%;
+  border-radius: 10px;
+  border: 1px solid #FF6846;
+  text-decoration: none;
+  
+}
+
+.imm h2 {
+  color: #FF6846;
+  font-size: 30px;
+}
+
+.imm p {
+  color: white;
+}
+
+.ndc {
+  background-color: #323232;
+  padding: 20%;
+  border-radius: 10px;
+  border: 1px solid #FF6846;
+  text-decoration: none;
+  
+  
+}
+ 
+.ndc h2 {
+  color: #FF6846;
+  font-size: 30px;
+}
+
+.ndc p {
+  color: white;
+  font-size: 15px;
+}
+
+.tdee {
+  background-color: #323232;
+  padding: 20%;
+  border-radius: 10px;
+  border: 1px solid #FF6846;
+  text-decoration: none;
+  
+}
+
+.tdee h2 {
+  color: #FF6846;
+  font-size: 30px;
+}
+
+.tdee p {
+  color: white;
+  font-size: 15px;
+  
+}
+
+.nan {
+  background-color: #323232;
+  padding: 20%;
+  border-radius: 10px;
+  border: 1px solid #FF6846;
+  text-decoration: none;
+  
+}
+
+.nan h2 {
+  color: #FF6846;
+  font-size: 30px;
+}
+
+.nan p {
+  color: white;
+  
+}
+
+.summary {
+  padding: 0px;
+  background-color: #323232;
+  border: 2px solid #FF6846;
+  border-radius: 10px;
+  position: relative;
+  top : 12px;
+}
+
+.summary summary {
+  color:  #FF6846;
+  font-size: 20px;
+}
+
+.summary li {
+  color: white ;
+  position: relative;
+  right: 13px;
+}

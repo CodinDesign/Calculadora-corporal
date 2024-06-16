@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de NDC</title>
+    <link rel="stylesheet" href="ndc.css">
+</head>
+<body>
+    <div class="container">
+        <h1> Necessidade Diária de Calorias (NDC)</h1>
+        <form id="form">
+            <label for="sexo">Sexo:</label>
+            <select id="sexo" required>
+                <option value="masculino">Masculino</option>
+                <option value="feminino">Feminino</option>
+            </select>
+
+            <label for="idade">Idade (anos):</label>
+            <input type="number" id="idade" placeholder="Ex: 24"required>
+
+            <label for="peso">Peso (kg):</label>
+            <input type="number" id="peso" placeholder="Ex :70" required>
+
+            <label for="altura">Altura (metros):</label>
+            <input type="number" step="0.01" id="altura" placeholder="Ex: 1,80"  required>
+
+            <label for="atividade">Nível de Atividade:</label>
+            <select id="atividade" required>
+                <option value="sedentario">Sedentário</option>
+                <option value="levemente_ativo">Levemente Ativo</option>
+                <option value="moderadamente_ativo">Moderadamente Ativo</option>
+                <option value="altamente_ativo">Altamente Ativo</option>
+                <option value="extremamente_ativo">Extremamente Ativo</option>
+            </select>
+
+            <button type="button" onclick="calcularNDC()">Calcular NDC</button>
+        </form>
+        <div id="resultado"></div>
+    </div>
+    <script src="ndc.js"></script>
+</body>
+</html>

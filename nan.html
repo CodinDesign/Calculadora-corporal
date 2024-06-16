@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Água Corporal</title>
+    <link rel="stylesheet" href="nan.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora de Água Corporal (NAN)</h1>
+        <form id="waterForm">
+            <div class="form-group">
+                <label for="weight">Peso (kg):</label>
+                <input type="number" id="weight" placeholder="Ex: 70" step="0.1" required>
+            </div>
+            <button type="submit">Calcular Água Necessária</button>
+        </form>
+        <div id="result" class="result"></div>
+    </div>
+    <script src="nan.js"></script>
+</body>
+</html>

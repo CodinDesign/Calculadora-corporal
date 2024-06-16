@@ -1,0 +1,67 @@
+body {
+    background-image: linear-gradient(to bottom, #656565, #2E2E2E);
+   margin: 13px;
+   text-align: center;
+  
+}
+
+h1 {
+    color: #FF6846;
+    font-size: 38px;
+    font-family: monospace;
+    text-shadow: 
+        0 0 2px #FF6846,   /* Primeira camada de sombra */
+        0 0 5px #FF6846,  /* Segunda camada de sombra */
+        0 0 10px #FF6846,  /* Terceira camada de sombra */
+        0 0 20px #FF6846,  /* Quarta camada de sombra */
+        0 0 40px #FF6846,  /* Quinta camada de sombra */
+        0 0 50px #FF6846,  /* Sexta camada de sombra */
+        0 0 60px #FF6846;  /* Sétima camada de sombra */
+}
+
+
+h2 {
+
+    border: 2px solid #FF6846;
+    border-radius: 10px;
+    background-color: #323232;
+    color: #FFFFFF;
+    height: 40px;
+    font-size: 25px;
+    padding: 15px 0 0 0;
+}
+
+p {
+
+    font-size: 22px;
+    color: white;
+    border: 2px solid #FF6846;
+    border-radius: 20px;
+    background-color: #323232;
+    padding: 5px;
+    font-family: monospace;
+    box-shadow:    0 0 10px #FF6846;
+
+}
+
+span {
+  color: #FF6846;
+
+  
+}
+
+button {
+    border-radius: 20px;
+    border: 2px solid #FF6846;
+    background-color: #FF6846;
+    font-weight: bold;
+    color: white;
+    font-family: monospace;
+    width: 300px;
+    height: 35px;
+    font-size: 20px;
+    position: relative;
+    bottom: 5px;
+    box-shadow: 0 0 10px #FF6846,
+                0 0 30px #FF6846;
+}
